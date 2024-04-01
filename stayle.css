@@ -15,7 +15,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  pad: 40px 40px;
+  pad: 40px;
+  padding-bottom: 50px;
 }
 .nav__list {
   display: flex;
@@ -23,10 +24,18 @@
   align-items: center;
 }
 .nav__list__link {
-  color: aqua;
+  color: #33323D;
 }
 .nav__list__link:hover {
-  color: rgb(255, 115, 0);
+  color: #1f0edb;
+}
+
+strong {
+  color: #5FB4A2;
+}
+
+strong:hover {
+  color: #0a1dca;
 }
 
 .card1 {
@@ -116,6 +125,7 @@
   text-align: center;
   padding: 5px;
   border: 2px solid #33323D;
+  color: #7c7a83;
 }
 .card2__div__a:hover {
   color: red;
@@ -139,7 +149,8 @@
   height: 35px;
   text-align: center;
   padding: 5px;
-  border: 2px solid #33323D;
+  border: 2px solid #828186;
+  color: #636368;
 }
 .card3__a:hover {
   color: red;
@@ -173,4 +184,204 @@
   display: flex;
   gap: 30px;
   align-items: center;
+}
+
+.bcard {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.bcard__box1 {
+  width: 540px;
+  height: 500px;
+  background: #FFEFEC;
+}
+.bcard__box1__img1 {
+  margin-top: 6px;
+}
+.bcard__box2 {
+  width: 300px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: start;
+  font-size: 16px;
+  margin-right: 200px;
+  margin-top: 170px;
+}
+.bcard__box2__p {
+  line-height: 25px;
+  color: #33323D;
+}
+.bcard__box2__h1 {
+  width: 350px;
+  font-size: 40px;
+  color: #33323D;
+}
+
+.bcard1 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.bcard1__box2 {
+  width: 300px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: start;
+  font-size: 16px;
+  margin-left: 200px;
+  margin-top: 170px;
+}
+.bcard1__box2__p {
+  line-height: 25px;
+  color: #33323D;
+}
+.bcard1__box2__h1 {
+  width: 350px;
+  font-size: 40px;
+  color: #33323D;
+}
+.bcard1__box1 {
+  width: 540px;
+  height: 500px;
+  background: #4F63D8;
+}
+.bcard1__box1__img2 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.bcard2 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.bcard2__box1 {
+  width: 540px;
+  height: 500px;
+  background: #8a898b;
+}
+.bcard2__box1__img1 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.bcard2__box2 {
+  width: 300px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: start;
+  font-size: 16px;
+  margin-right: 200px;
+  margin-top: 140px;
+}
+.bcard2__box2__p {
+  line-height: 25px;
+  color: #36353a;
+}
+.bcard2__box2__h1 {
+  width: 350px;
+  font-size: 40px;
+  color: #33323D;
+}
+
+.bcard3 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.bcard3__box2 {
+  width: 300px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: start;
+  font-size: 16px;
+  margin-left: 200px;
+  margin-top: 170px;
+}
+.bcard3__box2__p {
+  line-height: 25px;
+  color: #33323D;
+}
+.bcard3__box2__h1 {
+  width: 350px;
+  font-size: 40px;
+  color: #33323D;
+}
+.bcard3__box1 {
+  width: 540px;
+  height: 500px;
+  background: #41B4D3;
+}
+.bcard3__box1__img2 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+hr {
+  border: 1px solid #b3b2b8;
+}
+
+.ccard {
+  margin-top: 50px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.ccard__h1 {
+  width: 350px;
+  font-size: 40px;
+}
+.ccard__div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.ccard__div__p {
+  width: 580px;
+  line-height: 25px;
+  color: #a5a4a8;
+}
+
+.ccard2 {
+  margin-top: 70px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.ccard2__h1 {
+  width: 350px;
+  font-size: 40px;
+}
+.ccard2__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ccard2__form__input {
+  width: 500px;
+  height: 50px;
+  border: none;
+  background: #d8d7db;
+  padding-left: 20px;
+}
+.ccard2__form__input1 {
+  width: 500px;
+  height: 100px;
+  border: none;
+  background: #d8d7db;
+  padding-left: 20px;
 }/*# sourceMappingURL=stayle.css.map */
